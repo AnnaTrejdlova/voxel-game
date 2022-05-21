@@ -1,23 +1,22 @@
-<div id="top"></div>
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <img src="Exports/NoiseMap3.png" alt="Logo" width="80" height="80">
+  <img src="Exports/icon.png" alt="Logo" width="80" height="80">
 
   <h1 align="center">Voxel Game</h1>
 
   <p align="center">
-    A voxel game with procedurally generated terrain (inspired by Minecraft)
+    A voxel game with procedurally generated terrain
   </p>
+  <p align="center">
+    (inspired by Minecraft)
+  </p>
+  <br>
 </div>
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Voxel Game Screen Shot][product-screenshot]](Exports/Screenshot2.jpg)
+![Voxel Game Screen Shot](Exports/Screenshot2.jpg)
 
 This is a project I started to learn Unity game engine.
 The goal was mainly to learn generating meshed, texturing, uv mapping and playing with world generation using Perlin noise.
@@ -33,11 +32,7 @@ What I achieved:
 * [Unity game engine](https://unity3d.com/)
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
