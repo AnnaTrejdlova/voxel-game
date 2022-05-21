@@ -1,0 +1,6 @@
+UI - item bar, inventory, hand, F3 debug overlay, vignette, main menu (+ESC menu)
+Settings - render distance, world size (OR infinite generation)
+Buttons - ESC, F1, F2, F3, F11(Alt+Enter), E(TAB), C(zoom)
+
+biome grass colors, render distance fog
+terrain generation - 3 noise maps + biome map
