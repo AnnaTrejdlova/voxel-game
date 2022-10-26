@@ -42,7 +42,7 @@ Install the Unity Editor version `2020.3.32f1`
 
 Clone the repo
    ```sh
-   git clone https://github.com/michaltrejdl/voxel-game.git
+   git clone https://github.com/AnnaTrejdlova/voxel-game.git
    ```
 
 
