@@ -358,10 +358,10 @@ public class GenerateTerrain : MonoBehaviour
             //int uvsIndex = 0;
 
             Dictionary<byte, Vector2Int> texturePositionMapping = new Dictionary<byte, Vector2Int>();
-            texturePositionMapping.Add(1, new Vector2Int(1, 15));
-            texturePositionMapping.Add(2, new Vector2Int(7, 4));
-            texturePositionMapping.Add(3, new Vector2Int(2, 15));
-            texturePositionMapping.Add(4, new Vector2Int(0, 14));
+            texturePositionMapping.Add(1, new Vector2Int(1, 15)); // Stone
+            texturePositionMapping.Add(2, new Vector2Int(7, 4)); // ?
+            texturePositionMapping.Add(3, new Vector2Int(2, 15)); // Dirt
+            texturePositionMapping.Add(16, new Vector2Int(0, 14)); // Cobblestone
 
 
             Dictionary<byte, Vector2[]> uvBlockMapping = new Dictionary<byte, Vector2[]>();

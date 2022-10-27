@@ -103,20 +103,20 @@ public class FPSController : MonoBehaviour
                 float height = characterController.height;
                 Vector3 center = characterController.center;
 
-                //if (isBlock(UIControl.itemBarIds[UIControl.selectedPos]))
+                //if (isBlock(UIControl.itemBarIds[UIControl.selectedPos-1]))
                 //{
                     if (newPos.y + 0.5f > playerPos.y + center.y - height / 2 && newPos.y - 0.5f < playerPos.y + center.y + height / 2)
                     {
                         if (Mathf.Abs(newPos.x - playerPos.x) > (0.5f + radius) || Mathf.Abs(newPos.z - playerPos.z) > (0.5f + radius))
                         {
-                            generateTerrain.AddBlock(pos, hit.normal, UIControl.itemBarIds[UIControl.selectedPos]);
+                            generateTerrain.AddBlock(pos, hit.normal, UIControl.itemBarIds[UIControl.selectedPos-1]);
                         }
                     } else
                     {
-                        generateTerrain.AddBlock(pos, hit.normal, UIControl.itemBarIds[UIControl.selectedPos]);
+                        generateTerrain.AddBlock(pos, hit.normal, UIControl.itemBarIds[UIControl.selectedPos-1]);
                     }
                 //}
-                //if (isItem(UIControl.itemBarIds[UIControl.selectedPos]))
+                //if (isItem(UIControl.itemBarIds[UIControl.selectedPos-1]))
                 //{
                 //    use();
                 //}
